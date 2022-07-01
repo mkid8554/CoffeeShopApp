@@ -1,4 +1,5 @@
 public class Sugar extends CoffeeDecorator {
+
     //Constructor
     public Sugar(Coffee coffee) {
         super(coffee);
