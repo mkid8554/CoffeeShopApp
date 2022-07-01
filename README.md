@@ -1,8 +1,10 @@
 public class BlackCoffee extends CoffeeDecorator {
+
     //Constructor
     public BlackCoffee(Coffee coffee) {
         super(coffee);
     }
+   
     //Adds topping to the coffee
     @Override
     public void addTopping(Coffee coffee) {
